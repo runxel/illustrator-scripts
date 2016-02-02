@@ -59,9 +59,9 @@ function main(){
 function areaSize(unit) {
 	var size = 0;
 	// standard value is in pixels
-	size = parseFloat(Math.abs(app.activeDocument.selection[0].area/8.03521617).toFixed(3));
+	size = parseFloat(Math.abs(app.activeDocument.selection[0].area/8.03521617/100).toFixed(3));
 	if(unit == 1){ // mm
-		size = Math.abs(size/100).toFixed(3);
+		size = Math.abs(size*100).toFixed(3);
 	} else if(unit == 2){ // inch
 		size = Math.abs(size * 0.155).toFixed(3);
 	}
