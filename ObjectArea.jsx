@@ -4,7 +4,7 @@
 // gives you the area size of an object
 
 // test env: Adobe Illustrator CS6 oon Win x64
-// 2016-02-01
+// 2016-02-03
 
 // Lucas Becker
 // https://github.com/runxel
@@ -41,29 +41,25 @@ function main(){
 
     win.output = win.add("panel", [15, 15, 240, 61], "area size");
     win.output.orientation = "row";
-    win.output.txtBox = win.output.add("edittext", [175, 14, 370, 34], areaSize(0));
+    win.output.txtBox = win.output.add("edittext", [175, 14, 370, 34], areaSize(0.01));
 
     win.radioPanel.cm.onClick = function() {
-    	win.output.txtBox.text = areaSize(0);
+    	win.output.txtBox.text = areaSize(0.01);
     }
     win.radioPanel.mm.onClick = function() {
     	win.output.txtBox.text = areaSize(1);
     }
     win.radioPanel.inch.onClick = function() {
-    	win.output.txtBox.text = areaSize(2);
+    	win.output.txtBox.text = areaSize(0.00155);
     }
 
     win.show();
 }
 
-function areaSize(unit) {
+function areaSize(mult) {
 	var size = 0;
 	// standard value is in pixels
-	size = parseFloat(Math.abs(app.activeDocument.selection[0].area/8.03521617/100).toFixed(3));
-	if(unit == 1){ // mm
-		size = Math.abs(size*100).toFixed(3);
-	} else if(unit == 2){ // inch
-		size = Math.abs(size * 0.155).toFixed(3);
-	}
+	size = parseFloat(Math.abs(app.activeDocument.selection[0].area/8.03521617));
+	size = Math.abs(size * mult).toFixed(3)
 	return size;
 }
