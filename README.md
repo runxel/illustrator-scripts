@@ -26,6 +26,6 @@ This script gives you the area size of the selected paths in cm², mm² or inch�
 2. Hit the button you want to have the space calculated in.
 
 **Notice:**
-- Fails on compund paths.
+- Fails on compound paths.
 - May fail on difficult paths.
 - Returns `NaN` on non-paths like text.
