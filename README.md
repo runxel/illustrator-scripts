@@ -1,8 +1,12 @@
 
 Illustrator-Scripts
 ======================
-JavaScript scripts for Adobe Illustrator CSx.  
-test environment: Adobe Illustrator CS6 (Windows x64)
+JavaScript scripts for Adobe Illustrator CS/CC.  
+test environment: Adobe Illustrator CS6 and CC (Windows x64).
+
+Inspired by [Hiroyuki Sato](https://github.com/shspage/illustrator-scripts).
+
+---
 
 **How to download**
 
