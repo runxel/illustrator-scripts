@@ -21,7 +21,7 @@ E.g. `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Presets\en_EN\Script
 
 ---
 
-### ObjectArea.jsx
+### [ObjectArea.jsx](ObjectArea.jsx)
 This script gives you the area size of the selected paths in cm², mm² or inch².
 
 **Usage:**
