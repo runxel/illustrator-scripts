@@ -33,3 +33,14 @@ This script gives you the area size of the selected paths in cm², mm² or inch�
 - Fails on compound paths.
 - May fail on difficult paths.
 - Returns `NaN` on non-paths like text.
+
+---
+
+## Third-party
+Other places too look:
+- [Tom Byrne's MultiExporter.jsx](https://gist.github.com/TomByrne/7816376)  
+  Just save it with the filename `MultiExporter.jsx`.  
+  Then put that into your scripts folder. It can be found under  
+  `C:\Program Files\Adobe\Adobe Illustrator [VERSION]\Presets\[LANGUAGE]\Scripts`
+  In Illustrator, use the `File > Scripts > MultiExporter` option to bring up the dialogue box.
+  
