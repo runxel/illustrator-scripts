@@ -48,3 +48,4 @@ Other places too look:
   `C:\Program Files\Adobe\Adobe Illustrator [VERSION]\Presets\[LANGUAGE]\Scripts`
   In Illustrator, use the `File > Scripts > MultiExporter` option to bring up the dialogue box.
   
+  To get easier access to the scripts install the [plugin by majman](https://github.com/majman/adobe-scripts-panel) which retrofits a panel, like known from the other Adobe apps.
