@@ -38,7 +38,10 @@ This script gives you the area size of the selected paths in cm², mm² or inch�
 
 ## Third-party
 Other places too look:
-- [Alexander Ladygin's repo](https://github.com/alexander-ladygin/illustrator-scripts) is brimming of useful scripts.
+- Classic [John Wundes](https://github.com/johnwun/js4ai) scripts
+- [Hiroyuki Sato](https://github.com/shspage/illustrator-scripts)
+- [Alexander Ladygin's repo](https://github.com/alexander-ladygin/illustrator-scripts) is brimming of useful scripts
+- [Illustrator Praxis](http://illustrator.hilfdirselbst.ch/dokuwiki/en/skripte/javascript/uebersicht) with a big collection of different scripts
 - [Tom Byrne's MultiExporter.jsx](https://gist.github.com/TomByrne/7816376)  
   Just save it with the filename `MultiExporter.jsx`.  
   Then put that into your scripts folder. It can be found under  
