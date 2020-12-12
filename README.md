@@ -6,6 +6,8 @@ test environment: Adobe Illustrator CS6 and CC (Windows x64).
 
 Inspired by [Hiroyuki Sato](https://github.com/shspage/illustrator-scripts).
 
+A good place to start Illustrator scripting [is here](https://github.com/rjduran/adobe-scripting).
+
 ---
 
 **How to download**
